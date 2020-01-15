@@ -1,0 +1,17 @@
+{
+  "name": "adobe-indesign-remove-guides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "remove-guides.jsx",
+  "scripts": {
+    "lint": "jslint remove-guides.jsx",
+    "build": "mkdir -p dist && js-beautify remove-guides.jsx > dist/remove-guides.jsx",
+    "test": "jslint dist/remove-guides.jsx"
+  },
+  "author": "SourceTree GmbH",
+  "license": "MIT",
+  "devDependencies": {
+    "js-beautify": "^1.10.3",
+    "jslint": "^0.12.1"
+  }
+}
